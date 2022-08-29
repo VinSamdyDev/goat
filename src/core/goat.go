@@ -14,7 +14,7 @@ func (g Goat) GenerateService(name string) {
 	folderName := "service"
 	fileName := strings.ToLower(name) + ".go"
 	filePath := "./" + folderName + "/" + fileName
-	fileData := "package " + folderName + "/" + strings.ToLower(name) + "\n"
+	fileData := "package " + folderName + "\n"
 
 	// Check if file already existed
 	files, err := os.ReadDir("./" + folderName)
@@ -107,7 +107,7 @@ func (g Goat) GenerateHttp() {
 	name := "http"
 	fileName := strings.ToLower(name) + ".go"
 	filePath := "./" + folderName + "/" + fileName
-	fileData := "package " + folderName + "/" + strings.ToLower(name) + "\n"
+	fileData := "package " + folderName + "\n"
 
 	// Check if file already existed
 	files, err := os.ReadDir("./" + folderName)
@@ -154,7 +154,7 @@ func (g Goat) GenerateWebSocket() {
 	name := "websocket"
 	fileName := strings.ToLower(name) + ".go"
 	filePath := "./" + folderName + "/" + fileName
-	fileData := "package " + folderName + "/" + strings.ToLower(name) + "\n"
+	fileData := "package " + folderName + "\n"
 
 	// Check if file already existed
 	files, err := os.ReadDir("./" + folderName)
@@ -200,7 +200,7 @@ func (g Goat) GenerateEntity(name string) {
 	folderName := "entities"
 	fileName := strings.ToLower(name) + ".go"
 	filePath := "./" + folderName + "/" + fileName
-	fileData := "package " + folderName + "/" + strings.ToLower(name) + "\n"
+	fileData := "package " + folderName + "\n"
 
 	// Check if file already existed
 	files, err := os.ReadDir("./" + folderName)
@@ -246,7 +246,7 @@ func (g Goat) GenerateProtobuf(name string) {
 	folderName := "protobuf"
 	fileName := strings.ToLower(name) + ".go"
 	filePath := "./" + folderName + "/" + fileName
-	fileData := "package " + folderName + "/" + strings.ToLower(name) + "\n"
+	fileData := "package " + folderName + "\n"
 
 	// Check if file already existed
 	files, err := os.ReadDir("./" + folderName)
@@ -303,7 +303,7 @@ func (g Goat) GenerateRepo(name string) {
 	folderName := "repositories"
 	fileName := strings.ToLower(name) + ".go"
 	filePath := "./" + folderName + "/" + fileName
-	fileData := "package " + folderName + "/" + strings.ToLower(name) + "\n"
+	fileData := "package " + folderName + "\n"
 
 	// Check if file already existed
 	files, err := os.ReadDir("./" + folderName)
@@ -349,7 +349,7 @@ func (g Goat) GenerateDocker(name string) {
 	folderName := "docker"
 	fileName := strings.ToLower(name) + ".go"
 	filePath := "./" + folderName + "/" + fileName
-	fileData := "package " + folderName + "/" + strings.ToLower(name) + "\n"
+	fileData := "package " + folderName + "\n"
 
 	// Check if file already existed
 	files, err := os.ReadDir("./" + folderName)
@@ -396,7 +396,7 @@ func (g Goat) GenerateEntryPoint() {
 	name := "entrypoint"
 	fileName := strings.ToLower(name) + ".go"
 	filePath := "./" + folderName + "/" + fileName
-	fileData := "package " + folderName + "/" + strings.ToLower(name) + "\n"
+	fileData := "package " + folderName + "\n"
 
 	// Check if file already existed
 	files, err := os.ReadDir("./" + folderName)
