@@ -1,6 +1,6 @@
 package main
 
-import . "GOAT/src/utils"
+import . "github.com/VinSamdyDev/goat/src/utils"
 
 func main() {
 	CommandHandler()

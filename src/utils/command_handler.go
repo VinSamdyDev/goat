@@ -1,7 +1,7 @@
 package utils
 
 import (
-	. "GOAT/src/core"
+	. "github.com/VinSamdyDev/goat/src/core"
 	"github.com/urfave/cli"
 	"log"
 	"os"
